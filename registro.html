@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<na>
+    <nav><center>
+        <h1>
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+            </center>
+        </h1>
+    </nav>
+
+    <!--input para Nombre-->
+    <form method="post" action="resultado.html" class="formRegis">
+        <H3>Pagina de Registro</H3>
+    <div class="Nombre">
+        <label for="nombre">Nombre:</label>
+        <input class="entrada" type="Text" name="nom" placeholder="Nombre" id="nombre">
+    </div>
+    <div class="Apellidos">
+        <label for="apellidos">Apellidos:</label>
+        <input class= "entrada" type="Text" name="ape" placeholder="Apellidos" id="apellidos">
+    </div>
+    <!--input para Genero-->
+    <div class="Genero">
+        <label for="genero">Genero:</label>
+            <input class= "entrada" type="radio" name="masc" id="genero">Hombre</input>
+            <input class= "entrada" type="radio" name="fem" id="genero">Mujer</input>
+                </b>
+        </div>
+    <!--input para Email-->
+    <div class="Correo">
+    <label for="correo">Correo:</label>
+    <input class= "entrada" type="email" name="cor" placeholder="Ingrese su correo electronico" id="correo">
+    </div>
+    <!--input para contraseña-->
+    <div class="Contraseña">
+    <label for="contraseña">Contraseña:</label>
+    <input class= "entrada" type="password" name="pass" placeholder="Contraseña" id="contraseña">
+    </div>
+    <!--input para Fecha de Nacimiento-->
+    <div class="Fecha de Nacimiento">
+        <label for="fecha de Nacimiento">Fecha de Nacimiento:</label>
+        <input class= "entrada" type="date" name="fnacimiento" id="fecha de Nacimiento">
+    </div>
+    <!--input para Direccion-->
+    <div class="Direccion">
+        <label for="direccion">Direccion:</label>
+        <input class="entrada" type="text" name="dir" placeholder="Direccion" id="direccion">
+    </div>
+    <button class= "enviar" type="submit">Enviar</button>
+</form>
+</body>
+</html>
